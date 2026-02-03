@@ -1,0 +1,6 @@
+qdrant-client==1.5.4
+sentence-transformers
+huggingface-hub
+pymupdf
+streamlit
+python-dotenv
