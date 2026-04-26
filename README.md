@@ -66,10 +66,10 @@ rag-qdrant/
 
 ## Environment Setup
 
-> [!IMPORTANT]
-> You must have a Qdrant Cloud account and a Hugging Face API token to run this project.
+**Note:** You must have a Qdrant Cloud account and a Hugging Face API token to run this project.
 
 Create a `.env` file in the root directory with the following variables:
+
 
 ```env
 HF_TOKEN=your_huggingface_token
@@ -98,12 +98,11 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-[!TIP]
-> **Torch Installation (CPU Only)**
-> If the `torch` installation fails or if you want a lightweight version for systems without a GPU, use the following command:
-> ```bash
-> pip install torch --index-url https://download.pytorch.org/whl/cpu
-> ```
+**Torch Installation (CPU Only)**  
+If the `torch` installation fails or if you want a lightweight version for systems without a GPU, use:
+```bash
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+```
 
 ### Step 3: Run the Application
 
