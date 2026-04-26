@@ -98,6 +98,12 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+[!TIP]
+> **Torch Installation (CPU Only)**
+> If the `torch` installation fails or if you want a lightweight version for systems without a GPU, use the following command:
+> ```bash
+> pip install torch --index-url https://download.pytorch.org/whl/cpu
+> ```
 
 ### Step 3: Run the Application
 
